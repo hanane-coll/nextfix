@@ -1,0 +1,43 @@
+.hero{
+    object-fit: contain;
+    height: 45vw;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: -12vh;
+}
+
+.heroContent{
+    padding-left: 5vw;
+    padding-bottom: 10vh;
+    margin-bottom: 10vh;
+    width: 40vw;
+    /*background-image: linear-gradient(to right, rgba(0, 0, 0, 0.281) 0%,transparent 100%);*/
+    background-color:#F8DD38;
+    filter: drop-shadow(0 0 1rem black);
+}
+
+.heroContent>h1{
+    font-size: 4rem;
+}
+
+.heroButton{
+    color: #4A366F;
+
+    font-weight: 700;
+    padding: 1rem 2rem;
+    border: none;
+    background-color: #FF2373;
+    margin-right: 2vw;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .2s;
+}
+.blueButton{
+    background-color:#01FFFF;
+}
+.heroButton:hover{
+    background-color: rgba(163, 163, 163, 0.452);
+}
+.blueButton:hover{
+    background-color: rgba(163, 163, 163, 0.452);
+}
